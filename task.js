@@ -14,7 +14,7 @@ let ps = new shell({
   noProfile: true
 });
 //Run PowerShell Script
-ps.addCommand('C:/Users/jgreen-a/Desktop/node/ps/missing');
+ps.addCommand('');
 
 ps.invoke()
 .then(output => {
