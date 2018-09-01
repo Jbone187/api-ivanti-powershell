@@ -29,5 +29,5 @@ $BodyInfo = $ScanInfo | Out-String
 $recipients = @("")
 $To = $recipients
 $message = "$i `n Servers Missing Patches`n $BodyInfo "
-Send-MailMessage -To $To -from  -Subject 'Ivanti Patch Scan' -Body $message  -SmtpServer smtp.cdicorp.com
+Send-MailMessage -To $To -from  -Subject 'Ivanti Patch Scan' -Body $message  -SmtpServer smtp.whatever.com
 }
